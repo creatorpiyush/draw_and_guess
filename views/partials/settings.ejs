@@ -1,5 +1,5 @@
 <section class="container d-none" id="settings">
-    <div class="row justify-content-between mx-0">
+    <div class="row justify-content-between mt-5 mx-0">
         <div class="col-md-6 order-2 order-md-0 bg-light rounded h-100 p-3">
             <h1 class="text-center">Settings</h1>
             <div class="input-group mb-3">
@@ -50,14 +50,14 @@
             <% } %>
             <button class="btn btn-primary w-100" id="startGame">Start Game</button>
         </div>
-        <div class="col-md-6 text-uppercase font-weight-bold bg-danger text-white h-150 p-3">
-            <h1 class="text-center " style="width: 100%" ;>Players</h1>
+        <div class="col-md-6 d-none d-sm-none d-md-block text-uppercase font-weight-bold bg-danger text-white p-3">
+            <h1 class="text-center " ;>Players</h1>
             <div class="row mt-4 mx-0" style="height: 20em; overflow-y: auto;" id="playersDiv"></div>
         </div>
     </div>
     <div class="mt-5">
         <h1 class="text-center bg-secondary text-white">Invite your friends!</h1>
-        <div class="input-group mb-3">
+        <div class="input-group mb-5">
             <input type="text" id="gameLink" class="form-control text-center fw-bold bg-white"
                 value="http://localhost:3000/" readonly>
             <button class="btn btn-warning" type="button" id="copy">Copy Link</button>
