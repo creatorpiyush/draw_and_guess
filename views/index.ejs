@@ -28,11 +28,6 @@
     <link rel="manifest" href="images/site.webmanifest">
 
 
-    <script async defer src="/socket.io/socket.io.js"> </script>
-
-    <!-- <script async defer src="https://cdn.socket.io/socket.io-1.3.4.js"> </script> -->
-
-    <script async defer src="https://cdn.jsdelivr.net/npm/socket.io-client/dist/socket.io.min.js"></script>
 
 </head>
 
@@ -42,6 +37,20 @@
     <%- include('partials/gameZone') %>
     <%- include('partials/gameEnd') %>
     <%- include('partials/footer') %>
+
+    <!-- <script>
+        var socket = io();
+        var el = document.getElementById('server-time');
+
+        socket.on('time', function (timeString) {
+            el.innerHTML = 'Server time: ' + timeString;
+        });
+
+        setInterval(socket.emit.bind(socket, 'getTime'), 1000);
+    </script> -->
+
+    <script async defer src="/socket.io/socket.io.js"> </script>
+    <script async defer src="https://cdn.jsdelivr.net/npm/socket.io-client/dist/socket.io.min.js"></script>
     <script async src="https://cdn.jsdelivr.net/npm/howler@2.2.1/dist/howler.min.js"></script>
     <script async src="js/avatar.js"></script>
 </body>

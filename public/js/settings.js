@@ -7,6 +7,7 @@
 /* eslint-disable no-unused-vars */
 /* global io, my, Howl */
 const socket = io();
+// const socket = io.connect(window.location.hostname);
 const params = window.location
   .toString()
   .substring(window.location.toString().indexOf("?"));
