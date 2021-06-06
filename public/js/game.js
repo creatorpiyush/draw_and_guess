@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 /* eslint-disable no-global-assign */
 /* eslint-disable object-curly-newline */
 /* eslint-disable no-unused-vars */
@@ -15,8 +16,8 @@ let pickWordID = 0;
 let hints = [];
 
 if (typeof socket === "undefined") {
-  // location.reload();
-  alert("pls reload");
+  window.location.reload();
+  // alert("pls reload");
 }
 
 console.log(socket);
