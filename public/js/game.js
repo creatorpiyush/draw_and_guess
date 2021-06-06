@@ -14,7 +14,7 @@ let timerID = 0;
 let pickWordID = 0;
 let hints = [];
 
-this.socket = io();
+// socket = io();
 
 const yourTurn = new Howl({
   src: ["audio/your-turn.mp3"],

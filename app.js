@@ -15,7 +15,7 @@ const express = require("express");
 const http = require("http");
 const socketio = require("socket.io");
 
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 const app = express();
 
@@ -30,8 +30,8 @@ app.get("/", (req, res) => {
   res.render("index", { roomID });
 });
 
-server.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+server.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
 });
 
 const { EventEmitter } = require("events");
