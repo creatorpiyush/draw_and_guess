@@ -1,3 +1,10 @@
+/* eslint-disable function-paren-newline */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable operator-linebreak */
+/* eslint-disable comma-dangle */
+/* eslint-disable quotes */
+/* eslint-disable indent */
+/* eslint-disable no-unused-vars */
 /* global io, my, Howl */
 const socket = io();
 const params = window.location

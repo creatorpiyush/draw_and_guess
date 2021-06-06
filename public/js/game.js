@@ -1,7 +1,17 @@
+/* eslint-disable object-curly-newline */
+/* eslint-disable no-unused-vars */
+/* eslint-disable function-paren-newline */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable wrap-iife */
+/* eslint-disable comma-dangle */
+/* eslint-disable indent */
+/* eslint-disable quotes */
+/* eslint-disable no-undef */
 /* global socket, pad, Howl, animateCSS */
 let timerID = 0;
 let pickWordID = 0;
 let hints = [];
+// const socket = io();
 
 const yourTurn = new Howl({
   src: ["audio/your-turn.mp3"],
