@@ -14,6 +14,11 @@ let timerID = 0;
 let pickWordID = 0;
 let hints = [];
 
+if (!socket) {
+  // location.reload();
+  alert("pls reload");
+}
+
 console.log(socket);
 
 // socket = io();
