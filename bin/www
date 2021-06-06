@@ -1,16 +1,19 @@
 #!/usr/bin/env node
+/* eslint-disable indent */
+/* eslint-disable quotes */
 
-const { EventEmitter } = require('events');
-const app = require('../app');
-const sockets = require('../sockets');
+const { EventEmitter } = require("events");
+const app = require("../app");
+const sockets = require("../sockets");
 
 global.round = new EventEmitter();
 global.games = {};
 global.BONUS = 250;
 global.MAX_POINTS = 500;
+global.socket = sockets;
 
 const server = app.listen(process.env.PORT || 3000, process.env.IP, () => {
-    console.log(`Server listening on port ${server.address().port}`);
+  console.log(`Server listening on port ${server.address().port}`);
 });
 
 sockets.init(server);
