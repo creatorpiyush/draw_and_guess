@@ -14,7 +14,7 @@ let timerID = 0;
 let pickWordID = 0;
 let hints = [];
 
-if (!socket) {
+if (typeof socket === "undefined") {
   // location.reload();
   alert("pls reload");
 }
