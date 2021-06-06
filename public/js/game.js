@@ -14,6 +14,8 @@ let timerID = 0;
 let pickWordID = 0;
 let hints = [];
 
+console.log(socket);
+
 // socket = io();
 
 const yourTurn = new Howl({
