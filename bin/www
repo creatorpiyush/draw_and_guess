@@ -51,4 +51,3 @@ global.round = new EventEmitter();
 global.games = {};
 global.BONUS = 250;
 global.MAX_POINTS = 500;
-// global.socket = sockets;

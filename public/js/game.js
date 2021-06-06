@@ -8,6 +8,7 @@
 /* eslint-disable indent */
 /* eslint-disable quotes */
 /* eslint-disable no-undef */
+
 /* global socket, pad, Howl, animateCSS */
 let timerID = 0;
 let pickWordID = 0;
