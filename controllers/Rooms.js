@@ -12,7 +12,7 @@ class Room {
         const id = nanoid(15);
         games[id] = {
             rounds: 2,
-            time: 40 * 1000,
+            time: 60 * 1000,
             customWords: [],
         };
         games[id][socket.id] = {};

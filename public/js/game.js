@@ -13,8 +13,6 @@ let timerID = 0;
 let pickWordID = 0;
 let hints = [];
 
-socket = io();
-
 const yourTurn = new Howl({
   src: ["audio/your-turn.mp3"],
 });
