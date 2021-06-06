@@ -1,3 +1,4 @@
+/* eslint-disable no-var */
 /* eslint-disable import/newline-after-import */
 /* eslint-disable prefer-const */
 /* eslint-disable strict */
@@ -21,6 +22,7 @@ const app = express();
 
 const server = http.createServer(app);
 const io = socketio(server);
+// var io = require("socket.io")(http);
 
 app.use(express.static("public"));
 app.set("view engine", "ejs");
