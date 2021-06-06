@@ -1,3 +1,5 @@
+/* eslint-disable import/newline-after-import */
+/* eslint-disable prefer-const */
 /* eslint-disable strict */
 /* eslint-disable lines-around-directive */
 /* eslint-disable comma-dangle */
@@ -9,11 +11,17 @@
 "use strict";
 
 const express = require("express");
+
+const http = require("http");
 const socketio = require("socket.io");
 
 const PORT = process.env.PORT || 3000;
 
 const app = express();
+
+const server = http.createServer(app);
+const io = socketio(server);
+
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
@@ -22,21 +30,17 @@ app.get("/", (req, res) => {
   res.render("index", { roomID });
 });
 
-const server = app.listen(PORT, () => {
-  console.log(`Server listening on port ${server.address().port}`);
+server.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
 });
 
-// const io = socketio(server);
-
 const { EventEmitter } = require("events");
-// const sockets = require("../sockets");
 
 const Room = require("./controllers/Rooms");
 const Canvas = require("./controllers/Canvas");
 const Disconnect = require("./controllers/Disconnect");
 const Game = require("./controllers/Game");
 
-const io = socketio(server);
 io.on("connection", (socket) => {
   console.log("connected user");
   socket.on("newPrivateRoom", (player) =>
@@ -64,6 +68,3 @@ global.round = new EventEmitter();
 global.games = {};
 global.BONUS = 250;
 global.MAX_POINTS = 500;
-// global.socket = sockets;
-
-module.exports = app;

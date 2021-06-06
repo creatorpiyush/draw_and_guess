@@ -1,3 +1,4 @@
+/* eslint-disable no-global-assign */
 /* eslint-disable object-curly-newline */
 /* eslint-disable no-unused-vars */
 /* eslint-disable function-paren-newline */
@@ -11,7 +12,8 @@
 let timerID = 0;
 let pickWordID = 0;
 let hints = [];
-// const socket = io();
+
+socket;
 
 const yourTurn = new Howl({
   src: ["audio/your-turn.mp3"],
