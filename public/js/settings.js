@@ -1,5 +1,5 @@
 /* global io, my, Howl */
-const socket = io();
+const socket = io('http://localhost:3000');
 const params = window.location.toString().substring(window.location.toString().indexOf('?'));
 const searchParams = new URLSearchParams(params);
 const copyBtn = document.querySelector('#copy');
