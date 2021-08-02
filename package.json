@@ -95,7 +95,7 @@
     "has": "^1.0.3",
     "has-flag": "^3.0.0",
     "has-symbols": "^1.0.1",
-    "hosted-git-info": "^2.8.8",
+    "hosted-git-info": "^2.8.9",
     "http-errors": "^1.7.2",
     "iconv-lite": "^0.4.24",
     "ignore": "^4.0.6",
