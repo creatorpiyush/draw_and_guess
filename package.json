@@ -89,7 +89,7 @@
     "functional-red-black-tree": "^1.0.1",
     "get-intrinsic": "^1.0.2",
     "glob": "^7.1.6",
-    "glob-parent": "^5.1.1",
+    "glob-parent": "^5.1.2",
     "globals": "^12.4.0",
     "graceful-fs": "^4.2.4",
     "has": "^1.0.3",
