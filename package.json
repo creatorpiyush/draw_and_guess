@@ -210,7 +210,7 @@
     "toidentifier": "^1.0.0",
     "tsconfig-paths": "^3.9.0",
     "type-check": "^0.4.0",
-    "type-fest": "^0.8.1",
+    "type-fest": "^0.21.3",
     "type-is": "^1.6.18",
     "unpipe": "^1.0.0",
     "uri-js": "^4.4.1",
