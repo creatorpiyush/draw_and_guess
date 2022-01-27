@@ -205,7 +205,7 @@
     "strip-bom": "^3.0.0",
     "strip-json-comments": "^3.1.1",
     "supports-color": "^5.5.0",
-    "table": "^6.0.7",
+    "table": "^6.8.0",
     "text-table": "^0.2.0",
     "toidentifier": "^1.0.0",
     "tsconfig-paths": "^3.9.0",
