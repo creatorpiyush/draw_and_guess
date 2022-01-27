@@ -57,7 +57,7 @@
     "es-to-primitive": "^1.2.1",
     "escape-html": "^1.0.3",
     "escape-string-regexp": "^1.0.5",
-    "eslint": "^7.18.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-module-utils": "^2.6.0",
