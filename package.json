@@ -16,7 +16,7 @@
     "array-includes": "^3.1.2",
     "array.prototype.flat": "^1.2.4",
     "astral-regex": "^2.0.0",
-    "async": "^0.9.2",
+    "async": "^3.2.2",
     "balanced-match": "^1.0.0",
     "base64-arraybuffer": "^0.1.4",
     "base64id": "^2.0.0",
