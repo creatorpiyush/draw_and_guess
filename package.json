@@ -80,7 +80,7 @@
     "filelist": "^1.0.2",
     "finalhandler": "^1.1.2",
     "find-up": "^2.1.0",
-    "flat-cache": "^3.0.4",
+    "flat-cache": "^4.0.0",
     "flatted": "^3.1.1",
     "forwarded": "^0.1.2",
     "fresh": "^0.5.2",
