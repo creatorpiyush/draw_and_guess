@@ -20,10 +20,6 @@ if (typeof socket === "undefined") {
   // alert("pls reload");
 }
 
-console.log(socket);
-
-// socket = io();
-
 const yourTurn = new Howl({
   src: ["audio/your-turn.mp3"],
 });
