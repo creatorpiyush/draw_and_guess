@@ -189,7 +189,7 @@
     "shebang-command": "^2.0.0",
     "shebang-regex": "^3.0.0",
     "slice-ansi": "^4.0.0",
-    "socket.io": "^3.1.2",
+    "socket.io": "^4.8.0",
     "socket.io-adapter": "^2.1.0",
     "socket.io-parser": "^4.0.4",
     "spdx-correct": "^3.1.1",
