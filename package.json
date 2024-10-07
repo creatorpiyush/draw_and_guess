@@ -35,7 +35,7 @@
     "contains-path": "^0.1.0",
     "content-disposition": "^0.5.3",
     "content-type": "^1.0.4",
-    "cookie": "^0.4.1",
+    "cookie": "^0.7.0",
     "cookie-signature": "^1.0.6",
     "cors": "^2.8.5",
     "cross-spawn": "^7.0.3",
